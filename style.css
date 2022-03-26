@@ -5,7 +5,11 @@
 }
 
 html {
-  background-color: #344873;
+  background: #344873;
+}
+
+.banner {
+  background: #344873;
 }
 
 h1 {
