@@ -1,0 +1,62 @@
+* {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Abel', san-serif;
+}
+
+html {
+  background-color: #344873;
+}
+
+.banner {
+  background-color: #344873;
+}
+
+h1 {
+  text-align: center;
+}
+
+.image_gif {
+  width: 50px;
+  height: 50px;
+}
+
+div {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.one {
+  background: url(img/udemy1.jpg) center/contain no-repeat fixed;
+  color: #000;
+}
+
+.two {
+  background: url(img/udemy2.jpg) center/contain no-repeat fixed;
+  color: #000;
+}
+
+.three {
+  background: url(img/udemy3.jpg) center/contain no-repeat fixed;
+  color: #000;
+}
+
+.four {
+  background: url(img/udemy4.jpg) center/contain no-repeat fixed;
+  color: #000;
+}
+
+.five {
+  background: url(img/ram.jpg) center/contain no-repeat fixed;
+  color: #fff;
+}
+
+.six {
+  background: url(img/rhino.jpg) center/contain no-repeat fixed;
+  color: #fff;
+}
+
+.seven {
+  background: url(img/camel.jpg) center/contain no-repeat fixed;
+  color: #000;
+}
