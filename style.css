@@ -21,7 +21,7 @@ div {
   box-sizing: border-box;
 }
 
-.one {
+/* .one {
   background: url(img/udemy1.jpg) center/contain no-repeat fixed;
 }
 
@@ -35,7 +35,7 @@ div {
 
 .four {
   background: url(img/udemy4.jpg) center/contain no-repeat fixed;
-}
+} */
 
 .five {
   background: url(img/ram.jpg) center/contain no-repeat fixed;
