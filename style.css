@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1 {
   text-align: center;
+  margin: 0;
 }
 
 .image_gif {
@@ -15,30 +20,38 @@ h1 {
   height: 50px;
 }
 
-.one {
-  background: url(img/udemy1.jpg) center center/contain no-repeat fixed;
+.banner div {
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.two {
-  background: url(img/udemy2.jpg) center center/contain no-repeat fixed;
+.banner div:nth-child(1) {
+  background-image: url(img/udemy1.jpg);
 }
 
-.three {
-  background: url(img/udemy3.jpg) center center/contain no-repeat fixed;
+.banner div:nth-child(2) {
+  background-image: url(img/udemy2.jpg);
 }
 
-.four {
-  background: url(img/udemy4.jpg) center center/contain no-repeat fixed;
+.banner div:nth-child(3) {
+  background-image: url(img/udemy3.jpg);
 }
 
-.five {
-  background: url(img/ram.jpg) center center/contain no-repeat fixed;
+.banner div:nth-child(4) {
+  background-image: url(img/udemy4.jpg);
 }
 
-.six {
-  background: url(img/rhino.jpg) center center/contain no-repeat fixed;
+.banner div:nth-child(5) {
+  background-image: url(img/ram.jpg);
 }
 
-.seven {
-  background: url(img/camel.jpg) center center/contain no-repeat fixed;
+.banner div:nth-child(6) {
+  background-image: url(img/rhino.jpg);
+}
+
+.banner div:nth-child(7) {
+  background-image: url(img/camel.jpg);
 }
