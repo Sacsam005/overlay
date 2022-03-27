@@ -22,7 +22,7 @@ h1 {
 
 .banner div {
   width: 100%;
-  background-position: center;
+  background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
