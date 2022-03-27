@@ -2,10 +2,16 @@
   height: 100vh;
   width: 100%;
   font-family: 'Abel', san-serif;
+  color: #000;
 }
 
 h1 {
   text-align: center;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
 }
 
 .image_gif {
@@ -13,42 +19,30 @@ h1 {
   height: 50px;
 }
 
-div {
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .one {
   background: url(img/udemy1.jpg) center center/contain no-repeat fixed;
-  color: #000;
 }
 
 .two {
   background: url(img/udemy2.jpg) center center/contain no-repeat fixed;
-  color: #000;
 }
 
 .three {
   background: url(img/udemy3.jpg) center center/contain no-repeat fixed;
-  color: #000;
 }
 
 .four {
   background: url(img/udemy4.jpg) center center/contain no-repeat fixed;
-  color: #000;
 }
 
 .five {
   background: url(img/ram.jpg) center center/contain no-repeat fixed;
-  color: #fff;
 }
 
 .six {
   background: url(img/rhino.jpg) center center/contain no-repeat fixed;
-  color: #fff;
 }
 
 .seven {
   background: url(img/camel.jpg) center center/contain no-repeat fixed;
-  color: #000;
 }
