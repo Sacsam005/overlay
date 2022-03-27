@@ -19,37 +19,37 @@ div {
 }
 
 .one {
-  background: url(img/udemy1.jpg) center/cover no-repeat fixed;
+  background: url(img/udemy1.jpg) center center/cover no-repeat fixed;
   color: #000;
 }
 
 .two {
-  background: url(img/udemy2.jpg) center/cover no-repeat fixed;
+  background: url(img/udemy2.jpg) center center/cover no-repeat fixed;
   color: #000;
 }
 
 .three {
-  background: url(img/udemy3.jpg) center/cover no-repeat fixed;
+  background: url(img/udemy3.jpg) center center/cover no-repeat fixed;
   color: #000;
 }
 
 .four {
-  background: url(img/udemy4.jpg) center/cover no-repeat fixed;
+  background: url(img/udemy4.jpg) center center/cover no-repeat fixed;
   color: #000;
 }
 
 .five {
-  background: url(img/ram.jpg) center/cover no-repeat fixed;
+  background: url(img/ram.jpg) center center/cover no-repeat fixed;
   color: #fff;
 }
 
 .six {
-  background: url(img/rhino.jpg) center/cover no-repeat fixed;
+  background: url(img/rhino.jpg) center center/cover no-repeat fixed;
   color: #fff;
 }
 
 .seven {
-  background: url(img/camel.jpg) center/cover no-repeat fixed;
+  background: url(img/camel.jpg) center center/cover no-repeat fixed;
   color: #000;
 }
 
