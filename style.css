@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   color: #000;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -16,35 +17,43 @@ h1 {
   height: 50px;
 }
 
-div {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* .one {
-  background: url(img/udemy1.jpg) center/contain no-repeat fixed;
+.one {
+  background-image: url(img/udemy1.jpg);
 }
 
 .two {
-  background: url(img/udemy2.jpg) center/contain no-repeat fixed;
+  background-image: url(img/udemy2.jpg);
 }
 
 .three {
-  background: url(img/udemy3.jpg) center/contain no-repeat fixed;
+  background-image: url(img/udemy3.jpg);
 }
 
 .four {
-  background: url(img/udemy4.jpg) center/contain no-repeat fixed;
-} */
+  background-image: url(img/udemy4.jpg);
+}
 
 .five {
-  background: url(img/ram.jpg) center/contain no-repeat fixed;
+  background-image: url(img/ram.jpg);
 }
 
 .six {
-  background: url(img/rhino.jpg) center/contain no-repeat fixed;
+  background-image: url(img/rhino.jpg);
 }
 
 .seven {
-  background: url(img/camel.jpg) center/contain no-repeat fixed;
+  background-image: url(img/camel.jpg);
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
